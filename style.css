@@ -1,0 +1,62 @@
+
+.screen{
+    width: 60%;
+    height: 500px;
+    margin: 20%;
+    margin-top: 0;
+    background-color: #ccffff;
+    padding: 50px 50px 50px 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.qTitle{
+    background-color: #9933cc;
+    font-family: "Times New Roman", Georgia Serif;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    font-family: "Times New Roman", Georgia Serif;
+
+}
+
+.que{
+    font-family: "Times New Roman", Georgia Serif;
+   
+}
+
+.answer{
+    margin: 45px;
+}
+
+label,.nxt{
+    font-family: "Times New Roman", Georgia Serif;
+    background-color: #cc99ff;
+    width: 200px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 9px;
+    
+}
+
+
+label:hover,.nxt:hover{
+    cursor: pointer;
+    background-color: #9933cc;
+}
+
+.grade{
+    font-family: "Times New Roman", Georgia Serif;
+    text-align: center;
+    background-color: #ccffff;
+    font-size: 500%;
+}
+
+.perform{
+    font-family: "Times New Roman", Georgia Serif;
+    text-align: center;
+    background-color: #ccffff;
+    font-size: 500%;
+    margin-top: 50%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--I, Kashyap Thakkar, 000742712 certify that this material is my original work. No other person's work has been used without due acknowledgement.-->
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---->
+        <link rel = "stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div id="screen" class="screen">
+
+            <div id="title" class="qTitle"><h1>Quiz</h1></div>
+
+                <form>
+                    
+                    <hr>
+                    <div id="question" class="que"></div>
+                    <hr><br>
+                    <label><input type="radio" name="option" value="1"><span id="opt1"></span></label>
+                    <label><input type="radio" name="option" value="2"><span id="opt2"></span></label>
+                    <label><input type="radio" name="option" value="3"><span id="opt3"></span></label>
+                    <label><input type="radio" name="option" value="4"><span id="opt4"></span></label>
+                    <br><br>
+                    <input type ="button"  id="next" value="Next" class="nxt" onclick="nextQuestion();">
+                </form><br><br><br><br>
+                
+        </div>
+        <div id="result" class="grade" style="display:none;">
+            <div id="REF" class="perform"></div>
+                </div>
+
+ 
+
+        <script src="mainScript.js"></script>
+    </body>
+</html>
